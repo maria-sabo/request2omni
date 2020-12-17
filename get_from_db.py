@@ -4,7 +4,6 @@ import psycopg2
 from sshtunnel import SSHTunnelForwarder
 import config
 from get_last_id import get_last_id
-from request import send_request
 
 
 def get_from_db():

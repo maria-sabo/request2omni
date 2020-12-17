@@ -20,10 +20,6 @@ def main():
         email = sys.argv[1]
         api_token = sys.argv[2]
         prepare_and_sent(email, api_token)
-        # schedule.every(10).seconds.do(ssh_db_connect)
-        # while True:
-        #     schedule.run_pending()
-        #     time.sleep(1)
     else:
         print(
             'Введите три аргумента: \n - путь к запускаемому файлу (main.py) \n - email админа Омнидеск'
@@ -32,5 +28,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
