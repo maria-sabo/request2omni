@@ -14,7 +14,6 @@ def send_request(name, request_date, email, api_token):
         }
     }
     response = requests.post('https://maria991.omnidesk.ru/api/cases.json',
-                             # auth=('mariasabo991@gmail.com', '6816c42ff5312d58c323d7d48'),
                              auth=(email, api_token),
                              json=data_for_omni)
 
