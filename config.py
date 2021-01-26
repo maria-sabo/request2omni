@@ -12,3 +12,7 @@ foreign_db_params = {
     'host': 'localhost',
     'port': port_number
 }
+#настройки для Омнидеск
+user_email_omni = "maria_sabo@rambler.ru"
+user_full_name_omni = "Maria Sabo"
+
