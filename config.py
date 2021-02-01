@@ -7,6 +7,12 @@ postgres_port = 5432
 
 
 def foreign_db_params(db_name):
+    """
+    Функция возвращает параметры для подключения к БД.
+
+    :param db_name: Название БД, к которой будет выполняться подключение
+    :return: Словарь, содержащий параметры для подключения к БД
+    """
     foreign_db_params_ = {
         'dbname': db_name,
         'user': "user_name",
