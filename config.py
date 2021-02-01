@@ -24,5 +24,5 @@ def foreign_db_params(db_name):
 
 
 # настройки для Омнидеск
-user_email_omni = ""
+user_email_omni = "help@hr-link.ru"
 user_full_name_omni = ""
